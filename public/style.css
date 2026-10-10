@@ -52,3 +52,14 @@
 #services .services-quick-estimate{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:30px;background:var(--cyan);color:var(--ink);padding:10px 12px;font:700 12px/1.2 inherit;font-family:inherit;font-size:12px;font-weight:700;white-space:nowrap;cursor:pointer}
 #services .services-quick-estimate:focus-visible{outline:3px solid #185a78;outline-offset:2px}
 }
+
+/* Lead contact details collected after questionnaire steps */
+.funnel-email-form{margin-top:22px;padding:22px;background:#eef9fc;border:1px solid var(--line)}
+.funnel-email-form[hidden]{display:none}
+.funnel-email-form h3{margin:0 0 6px;font-size:22px}
+.funnel-email-form>p{margin:0 0 16px}
+.funnel-contact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:18px}
+.funnel-contact-grid label{display:block;font-size:13px;font-weight:600}
+.funnel-contact-grid input{display:block;width:100%;min-width:0;margin-top:7px;padding:12px;background:white;border:1px solid var(--line);font:inherit}
+.funnel-email-form .small-note{margin-top:12px}
+@media(max-width:600px){.funnel-email-form{padding:18px 14px}.funnel-contact-grid{grid-template-columns:1fr}}
