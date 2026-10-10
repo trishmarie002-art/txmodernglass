@@ -82,3 +82,19 @@
  iframe{max-width:100%}
  h1,h2,h3,p,a{overflow-wrap:break-word}
 }
+
+/* Full viewport layout: avoid accidentally constraining page to partial screen width. */
+html{width:100%;max-width:100%;overflow-x:clip}
+body{width:100%;min-width:0;max-width:100%;overflow-x:clip}
+body>header,body>main,body>footer,body>.topbar{width:100%;max-width:100%;min-width:0}
+main>section,.hero,.ticker,.story-band,.reviews-section,.areas-band,.home-contact,.cta{max-width:100%}
+.container{max-width:calc(100% - 40px)}
+@media(min-width:1160px){.container{max-width:calc(100% - 100px)}}
+@media(max-width:600px){
+ .container{width:calc(100% - 32px);max-width:calc(100% - 32px)}
+ .hero-actions,.hero-proof,.section-heading,.topbar .container{min-width:0}
+ .hero-actions{flex-wrap:wrap}
+ .topbar .container>*{min-width:0}
+ .section-heading>*{min-width:0}
+ .services-grid,.project-grid,.footer-grid{min-width:0}
+}
