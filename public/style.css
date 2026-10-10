@@ -142,3 +142,10 @@ main>section,.hero,.ticker,.story-band,.reviews-section,.areas-band,.home-contac
  body.home-page .services-grid,
  body.home-page .project-grid{grid-template-columns:minmax(0,1fr)}
 }
+
+/* Disable sideways page scrolling on the homepage, preserving vertical scrolling. */
+@media(max-width:900px){
+ html,body{overflow-x:hidden!important;max-width:100%!important}
+ body.home-page{overflow-x:hidden!important;touch-action:pan-y;overscroll-behavior-x:none}
+ body.home-page main,body.home-page header,body.home-page footer,body.home-page .topbar{max-width:100%;overflow-x:clip}
+}
