@@ -15,3 +15,14 @@ if(blogSearch){
  function updateBlog(){const query=blogSearch.value.trim().toLowerCase();const matches=blogCards.filter(card=>(blogCategory==='All guides'||card.dataset.blogCategory===blogCategory)&&card.textContent.toLowerCase().includes(query));const visible=new Set(matches.slice(0,limit));blogCards.forEach(card=>card.hidden=!visible.has(card));document.querySelector('#blog-count').textContent=`Showing ${Math.min(limit,matches.length)} of ${matches.length} ${matches.length===1?'guide':'guides'} · 300 words each`;document.querySelector('#blog-empty').hidden=matches.length>0;more.hidden=limit>=matches.length}
  blogSearch.addEventListener('input',()=>{limit=12;updateBlog()});blogFilters.forEach(button=>button.addEventListener('click',()=>{blogCategory=button.dataset.blogFilter;limit=12;blogFilters.forEach(other=>{other.classList.toggle('selected',other===button);other.setAttribute('aria-pressed',String(other===button))});updateBlog()}));more.addEventListener('click',()=>{limit+=12;updateBlog()});updateBlog();
 }
+
+const hero=document.querySelector('.hero');
+if(hero){
+ const slides=[...hero.querySelectorAll('.hero-slide')],dots=[...hero.querySelectorAll('[data-hero-slide]')],controls=hero.querySelector('.hero-controls'),pause=hero.querySelector('.hero-pause'),position=hero.querySelector('#hero-position');
+ if(slides.length>1){
+  let current=0,timer=null,paused=window.matchMedia('(prefers-reduced-motion: reduce)').matches,focused=false;
+  function show(index){current=(index+slides.length)%slides.length;slides.forEach((slide,i)=>{slide.classList.toggle('active',i===current);slide.setAttribute('aria-hidden',String(i!==current))});dots.forEach((dot,i)=>{dot.classList.toggle('selected',i===current);dot.setAttribute('aria-pressed',String(i===current))});position.textContent=`${String(current+1).padStart(2,'0')} / ${String(slides.length).padStart(2,'0')}`;}
+  function schedule(){if(timer)window.clearInterval(timer);timer=null;pause.textContent=paused?'Play':'Pause';pause.setAttribute('aria-label',paused?'Start image rotation':'Pause image rotation');if(!paused&&!focused&&!document.hidden)timer=window.setInterval(()=>show(current+1),6500);}
+  controls.hidden=false;dots.forEach((dot,index)=>dot.addEventListener('click',()=>{show(index);schedule()}));pause.addEventListener('click',()=>{paused=!paused;schedule()});hero.addEventListener('focusin',()=>{focused=true;schedule()});hero.addEventListener('focusout',event=>{if(!hero.contains(event.relatedTarget)){focused=false;schedule()}});document.addEventListener('visibilitychange',schedule);schedule();
+ }
+}
