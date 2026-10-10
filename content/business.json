@@ -37,20 +37,21 @@
     "Kyle",
     "Buda",
     "Bulverde",
-    "Spring Branch"
+    "Spring Branch",
+    "Texas Hill Country"
   ],
   "hours": [
     {
-      "days": "Monday–Friday",
-      "hours": "9 am–8 pm"
+      "days": "Monday\u2013Friday",
+      "hours": "9 am\u20138 pm"
     },
     {
       "days": "Saturday",
-      "hours": "9 am–6 pm"
+      "hours": "9 am\u20136 pm"
     },
     {
       "days": "Sunday",
-      "hours": "9 am–5 pm"
+      "hours": "9 am\u20135 pm"
     }
   ],
   "sources": [
