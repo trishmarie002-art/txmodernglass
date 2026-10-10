@@ -1,0 +1,7 @@
+{
+  "name": "modern-glass-seguin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "node build.mjs", "test": "node verify.mjs"},
+  "engines": {"node": ">=22"}
+}

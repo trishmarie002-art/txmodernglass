@@ -1,0 +1,9 @@
+import assert from 'node:assert/strict';
+import {readFileSync,readdirSync,existsSync} from 'node:fs';
+const root=new URL('./dist/',import.meta.url);
+const pages=readdirSync(root,{recursive:true}).filter(p=>p.endsWith('.html'));
+const titles=new Set(),descriptions=new Set();
+for(const file of pages){const html=readFileSync(new URL(file,root),'utf8');assert.equal((html.match(/<h1\b/g)||[]).length,1,`${file}: one H1 required`);const title=html.match(/<title>(.*?)<\/title>/)[1];const description=html.match(/<meta name="description" content="([^"]+)"/)[1];assert(!titles.has(title),`${file}: duplicate title`);assert(!descriptions.has(description),`${file}: duplicate description`);titles.add(title);descriptions.add(description);assert(!html.includes('Lorem ipsum'));for(const match of html.matchAll(/href="(\/[^"?#]*)/g)){const path=match[1];assert(existsSync(new URL(path==='/'?'index.html':path.slice(1)+(path.includes('.')?'':'.html'),root)),`${file}: broken link ${path}`)}for(const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g))JSON.parse(match[1]);}
+const posts=JSON.parse(readFileSync(new URL('./content/posts.json',import.meta.url)));const slugs=new Set();for(const p of posts){assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.slug));assert(!slugs.has(p.slug));slugs.add(p.slug);assert(p.h1&&p.metaTitle&&p.metaDescription);assert.equal(p.paragraphs.join(' ').trim().split(/\s+/).length,300,`${p.slug}: exactly 300 body words required`);}
+const faqs=JSON.parse(readFileSync(new URL('./content/faqs.json',import.meta.url)));assert.equal((readFileSync(new URL('faq.html',root),'utf8').match(/<details /g)||[]).length,faqs.length);
+assert(existsSync(new URL('logo.webp',root)));console.log(`Verified ${pages.length} pages: unique metadata, one H1, valid structured data, local links, FAQ content, logo; ${posts.length} blog articles.`);

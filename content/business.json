@@ -1,0 +1,13 @@
+{
+  "name": "Modern Glass LLC",
+  "phone": "(210) 609-5574",
+  "telephone": "+12106095574",
+  "email": "tx.modernglass@gmail.com",
+  "address": "8503 Morning Grove, Converse, Texas 78109",
+  "primaryArea": "Seguin",
+  "logo": "https://img1.wsimg.com/isteam/ip/62bfd8e4-fb8c-4f01-864b-f4d367498bb5/3BAC55DA-4D79-4BCE-9AE5-492E7BAD2BB1.png/:/rs=w:598,h:144,cg:true,m/qt=q:95",
+  "reviewWidget": "bff28f5f-f15a-4c67-89c3-3787a811ce04",
+  "areas": ["Seguin", "New Braunfels", "Cibolo", "Schertz", "San Marcos", "La Vernia", "San Antonio"],
+  "hours": [{"days":"Monday–Friday", "hours":"9 am–8 pm"}, {"days":"Saturday", "hours":"9 am–6 pm"}, {"days":"Sunday", "hours":"9 am–5 pm"}],
+  "sources": ["https://txmodernglass.com/", "https://txmodernglass.com/about", "https://txmodernglass.com/faq", "https://txmodernglass.com/contact", "https://txmodernglass.com/reviews", "https://txmodernglass.com/past-project-gallery"]
+}
