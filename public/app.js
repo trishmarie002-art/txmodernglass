@@ -26,3 +26,15 @@ if(hero){
   controls.hidden=false;dots.forEach((dot,index)=>dot.addEventListener('click',()=>{show(index);schedule()}));pause.addEventListener('click',()=>{paused=!paused;schedule()});hero.addEventListener('focusin',()=>{focused=true;schedule()});hero.addEventListener('focusout',event=>{if(!hero.contains(event.relatedTarget)){focused=false;schedule()}});document.addEventListener('visibilitychange',schedule);schedule();
  }
 }
+
+const funnel=document.querySelector('#project-funnel');
+if(funnel){
+ funnel.hidden=false;
+ const steps=[...funnel.querySelectorAll('.funnel-step')],result=funnel.querySelector('#funnel-result'),next=funnel.querySelector('#funnel-next'),back=funnel.querySelector('#funnel-back'),error=funnel.querySelector('#funnel-error'),progress=funnel.querySelector('#funnel-progress'),controls=funnel.querySelector('.funnel-controls');
+ let step=0;
+ function renderFunnel(focus=true){steps.forEach((el,i)=>el.hidden=i!==step);result.hidden=true;controls.hidden=false;progress.hidden=false;back.hidden=step===0;next.textContent=step===3?'Show my next steps →':'Continue →';progress.textContent=`Question ${step+1} of 4`;funnel.querySelector('.funnel-track span').style.width=`${(step+1)*25}%`;error.textContent='';if(focus)steps[step].querySelector('input').focus();}
+ back.addEventListener('click',()=>{step=Math.max(0,step-1);renderFunnel()});
+ funnel.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(funnel),key=['service','property','city','timing'][step],value=String(data.get(key)||'').trim();if(!value){error.textContent=step===2?'Please enter your project city.':'Please choose an option to continue.';steps[step].querySelector('input').focus();return;}if(step<3){step++;renderFunnel();return;}steps.forEach(el=>el.hidden=true);controls.hidden=true;progress.hidden=true;error.textContent='';result.hidden=false;const summary=`Service: ${data.get('service')}\nProperty: ${data.get('property')}\nCity: ${String(data.get('city')).trim()}\nTiming: ${data.get('timing')}`;funnel.querySelector('#funnel-summary').textContent=summary;const ios=/iPad|iPhone|iPod/.test(navigator.userAgent);funnel.querySelector('#funnel-text').href=`sms:+12106095574${ios?'&':'?'}body=${encodeURIComponent('Hi Modern Glass! I would like to discuss a glass project.\n'+summary)}`;result.focus();});
+ funnel.querySelector('#funnel-use-form').addEventListener('click',()=>{const data=new FormData(funnel),contact=document.querySelector('#inquiry-form');contact.elements.service.value=data.get('service');contact.elements.city.value=String(data.get('city')).trim();const notes=`Property: ${data.get('property')}\nPreferred timing: ${data.get('timing')}`;if(!contact.elements.message.value.trim())contact.elements.message.value=notes;document.querySelector('#home-contact').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});contact.elements.name.focus({preventScroll:true});});
+ funnel.querySelector('#funnel-restart').addEventListener('click',()=>{step=0;renderFunnel()});renderFunnel(false);
+}
