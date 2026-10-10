@@ -110,3 +110,35 @@ main>section,.hero,.ticker,.story-band,.reviews-section,.areas-band,.home-contac
  .hero-copy{min-width:0;max-width:100%}
  .hero h1{overflow-wrap:anywhere}
 }
+
+/* Home page only: stop narrow-screen sections and third-party widgets widening the viewport. */
+@media(max-width:900px){
+ html:has(body.home-page){overflow-x:hidden}
+ body.home-page{width:100%;max-width:100%;overflow-x:hidden}
+ body.home-page main{width:100%;min-width:0;overflow-x:clip}
+ body.home-page main>section,
+ body.home-page .ticker,
+ body.home-page .home-contact,
+ body.home-page .reviews-section{min-width:0;max-width:100%;overflow-x:clip}
+ body.home-page main .container{min-width:0}
+ body.home-page .hero-layout,
+ body.home-page .hero-copy,
+ body.home-page .section-heading,
+ body.home-page .story-layout,
+ body.home-page .faq-preview,
+ body.home-page .home-contact .contact-layout{min-width:0;max-width:100%}
+ body.home-page .story-layout,
+ body.home-page .home-contact .contact-layout{grid-template-columns:minmax(0,1fr)}
+ body.home-page .reviews-wrap,
+ body.home-page .reviews-wrap iframe,
+ body.home-page .reviews-wrap [class*="elfsight"]{max-width:100%;min-width:0}
+ body.home-page .home-contact input,
+ body.home-page .home-contact select,
+ body.home-page .home-contact textarea{min-width:0;max-width:100%}
+}
+@media(max-width:600px){
+ body.home-page .services-mobile-cta{width:100%;min-width:0}
+ body.home-page .ticker .container{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.home-page .services-grid,
+ body.home-page .project-grid{grid-template-columns:minmax(0,1fr)}
+}
