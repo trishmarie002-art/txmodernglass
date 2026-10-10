@@ -63,3 +63,5 @@
 .funnel-contact-grid input{display:block;width:100%;min-width:0;margin-top:7px;padding:12px;background:white;border:1px solid var(--line);font:inherit}
 .funnel-email-form .small-note{margin-top:12px}
 @media(max-width:600px){.funnel-email-form{padding:18px 14px}.funnel-contact-grid{grid-template-columns:1fr}}
+
+.funnel-contact-grid .funnel-address{grid-column:1/-1}
