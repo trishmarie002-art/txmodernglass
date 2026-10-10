@@ -1,6 +1,6 @@
 # Modern Glass — Seguin
 
-A custom, responsive, static website for Modern Glass LLC, centered on service in Seguin, TX. Designed around the supplied cyan-and-charcoal logo, warm ivory backgrounds, editorial typography, and the business’s real project photography.
+A custom, responsive, static website for Modern Glass LLC, centered on service in Seguin, TX. Designed around the supplied cyan-and-charcoal logo (#70C6E4 cyan sampled from the supplied image), white and pale cyan backgrounds, editorial typography, and the business’s real project photography.
 
 ## Build and deploy
 
