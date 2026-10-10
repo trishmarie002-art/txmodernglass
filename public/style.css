@@ -65,3 +65,20 @@
 @media(max-width:600px){.funnel-email-form{padding:18px 14px}.funnel-contact-grid{grid-template-columns:1fr}}
 
 .funnel-contact-grid .funnel-address{grid-column:1/-1}
+
+/* Keep narrow mobile viewports within the screen without clipping controls. */
+@media(max-width:600px){
+ html,body{max-width:100%;overflow-x:clip}
+ .container{max-width:calc(100% - 32px)}
+ main,footer,header,.section,.story-band,.areas-band,.home-contact{max-width:100%}
+ .section-heading,.hero-copy,.header-inner,.contact-layout,.footer-grid,.story-layout,.faq-layout,.area-story{min-width:0}
+ .services-mobile-cta{min-width:0}
+ #services .services-mobile-cta .eyebrow{flex:0 1 auto;min-width:0;font-size:10px;letter-spacing:.09em}
+ #services .services-quick-estimate{flex:0 1 auto;min-width:0;max-width:56%;white-space:normal;overflow-wrap:anywhere;text-align:center;line-height:1.25;padding:9px 10px}
+ .funnel-modal{max-width:calc(100% - 20px)}
+ .funnel-modal-header,.funnel-contact-grid,.funnel-step{min-width:0}
+ .funnel-actions .button,.hero-actions .button{min-width:0;white-space:normal}
+ .footer-grid>*{min-width:0}
+ iframe{max-width:100%}
+ h1,h2,h3,p,a{overflow-wrap:break-word}
+}
