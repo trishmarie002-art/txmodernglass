@@ -605,8 +605,8 @@
     "source": "google"
   },
   {
-    "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid",
-    "alt": "Modern Glass Google listing photo 124",
-    "source": "google"
+    "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eNw4v7JxnRpghKI_7ekL4w&cb_client=maps_sv.tactile.gps&w=203&h=100&yaw=316.75494&pitch=0&thumbfov=100",
+    "alt": "Google Street View of the Modern Glass listed location",
+    "source": "streetview"
   }
 ]
