@@ -46,19 +46,3 @@ if(funnel){
  funnel.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(funnel),key=['service','property','city','timing'][step],value=String(data.get(key)||'').trim();if(!value){error.textContent=step===2?'Please enter your project city.':'Please choose an option to continue.';steps[step].querySelector('input').focus();return;}if(step<3){step++;renderFunnel();return;}steps.forEach(el=>el.hidden=true);controls.hidden=true;progress.hidden=true;error.textContent='';result.hidden=false;if(emailForm){for(const key of ['service','property','city','timing'])emailForm.elements.namedItem(key).value=String(data.get(key)||'').trim();emailForm.hidden=false;}const summary=`Service: ${data.get('service')}\nProperty: ${data.get('property')}\nCity: ${String(data.get('city')).trim()}\nTiming: ${data.get('timing')}`;funnel.querySelector('#funnel-summary').textContent=summary;result.focus();});
  funnel.querySelector('#funnel-restart').addEventListener('click',()=>{step=0;renderFunnel()});renderFunnel(false);
 }
-
-/* Prevent sideways touch panning that exposes a narrow viewport edge on phones. */
-if(window.matchMedia('(max-width: 900px) and (pointer: coarse)').matches){
- let startX=0,startY=0;
- document.addEventListener('touchstart',event=>{
-  if(event.touches.length!==1)return;
-  startX=event.touches[0].clientX;
-  startY=event.touches[0].clientY;
- },{passive:true});
- document.addEventListener('touchmove',event=>{
-  if(event.touches.length!==1||!event.cancelable)return;
-  const dx=event.touches[0].clientX-startX;
-  const dy=event.touches[0].clientY-startY;
-  if(Math.abs(dx)>10&&Math.abs(dx)>Math.abs(dy)*1.2)event.preventDefault();
- },{passive:false});
-}
