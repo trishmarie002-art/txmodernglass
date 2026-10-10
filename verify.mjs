@@ -7,6 +7,13 @@ for(const file of pages){const html=readFileSync(new URL(file,root),'utf8');asse
 const posts=JSON.parse(readFileSync(new URL('./content/posts.json',import.meta.url)));const slugs=new Set();for(const p of posts){assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.slug));assert(!slugs.has(p.slug));slugs.add(p.slug);assert(p.h1&&p.metaTitle&&p.metaDescription);assert.equal(p.paragraphs.join(' ').trim().split(/\s+/).length,300,`${p.slug}: exactly 300 body words required`);}
 const faqs=JSON.parse(readFileSync(new URL('./content/faqs.json',import.meta.url)));assert.equal((readFileSync(new URL('faq.html',root),'utf8').match(/<details /g)||[]).length,faqs.length);
 const areas=JSON.parse(readFileSync(new URL('./content/area-pages.json',import.meta.url)));const areaSlugs=new Set();
+assert.equal(areas.length,30,'Exactly 30 service-area pages required');
+assert.equal(new Set(areas.map(a=>a.city)).size,30,'Service areas must be unique');
+assert(!areas.some(a=>['San Antonio','Converse'].includes(a.city)),'Excluded cities must not be targeted');
+assert(!existsSync(new URL('areas/san-antonio-glass-installation.html',root)));
+assert(!existsSync(new URL('areas/converse-glass-installation.html',root)));
+const business=JSON.parse(readFileSync(new URL('./content/business.json',import.meta.url)));
+assert.equal(business.areas.length,30);assert(business.address.includes('Converse'));
 for(const area of areas){assert(!areaSlugs.has(area.slug));areaSlugs.add(area.slug);assert(area.city&&area.sections?.length);assert(readFileSync(new URL(`areas/${area.slug}.html`,root),'utf8').includes(area.h1));}
 for(const post of posts){
  assert(post.h1.includes('Central Texas'),`${post.slug}: regional H1 required`);

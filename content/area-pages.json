@@ -1,86 +1,812 @@
 [
   {
-    "slug":"new-braunfels-glass-installation",
-    "city":"New Braunfels",
-    "h1":"Custom Glass Installation in New Braunfels, TX",
-    "metaTitle":"Custom Glass in New Braunfels, TX | Modern Glass",
-    "metaDescription":"Modern Glass serves New Braunfels with frameless showers, custom mirrors, cabinet glass, and specialty installations. Request a free project estimate.",
-    "intro":"Bring a clearer view to your bathroom, cabinetry, or living space. Modern Glass serves New Braunfels with custom glass designed around the project you have in mind.",
-    "sections":[
-      {"heading":"Plan the shower and vanity together","text":"If your New Braunfels project includes a bathroom renovation, review the shower enclosure and mirror as parts of the same room. Share the tile layout, vanity arrangement, and hardware preferences so the glass discussion reflects your complete design. Modern Glass offers custom frameless shower enclosures and mirrors; ask the team about suitable options for your opening and wall space."},
-      {"heading":"Custom details beyond the bathroom","text":"Cabinet inserts, glass shelves, tabletop glass, and specialty installations can help connect the design across a home. Explain how each piece will be used and which surfaces are complete. Final specifications and measurements should be confirmed for the actual application rather than copied from a similar project photo."},
-      {"heading":"Start with your project details","text":"Send your New Braunfels project address, photos, and the service you need to request a free estimate. Mention whether another contractor is still completing tile, cabinetry, or surrounding work. Modern Glass is based in Converse and serves New Braunfels; this page does not represent a separate local office."}
+    "slug": "seguin-glass-installation",
+    "city": "Seguin",
+    "h1": "Custom Glass Installation in Seguin, TX",
+    "metaTitle": "Custom Glass in Seguin, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Seguin with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Seguin with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Bring your Seguin glass project into focus",
+        "text": "Start with the problem you want to solve: an awkward shower entry, a mirror that does not fit the vanity, or cabinetry that needs a lighter look. Share the entire room rather than only the opening. The main Seguin homepage introduces the services; this page helps organize the details needed for a project-specific discussion."
+      },
+      {
+        "heading": "Coordinate the finished surfaces",
+        "text": "Tell the team whether your tile, threshold, vanity, or cabinet openings are complete. Changes after measurements can affect a custom order. Ask which selections need approval and what work must be finished before fabrication. Keeping these milestones clear makes it easier to coordinate the glass portion of a larger renovation."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Seguin address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
     ],
-    "relatedCategories":["Shower planning","Mirrors & interiors"]
+    "relatedCategories": [
+      "Estimates & installation",
+      "Shower planning"
+    ],
+    "coverageStatus": "listed-on-original-site"
   },
   {
-    "slug":"cibolo-glass-installation",
-    "city":"Cibolo",
-    "h1":"Custom Glass Installation in Cibolo, TX",
-    "metaTitle":"Custom Glass in Cibolo, TX | Modern Glass",
-    "metaDescription":"Plan a Cibolo glass project with Modern Glass. Explore frameless shower enclosures, custom mirrors, shelves, and cabinet glass. Get a free estimate.",
-    "intro":"Updating one room or coordinating several glass features? Modern Glass serves Cibolo with custom installations for homes and businesses.",
-    "sections":[
-      {"heading":"A practical plan for replacing shower glass","text":"A Cibolo shower replacement begins with the existing enclosure and the surfaces around it. Photograph the old framing, nearby fixtures, and the complete opening. Ask what removal and preparation are included, and identify any tile or finish repairs needed before final measurements. A new enclosure should fit the completed space and your preferred door movement."},
-      {"heading":"Mirrors and interior glass made for the space","text":"Modern Glass also offers custom mirrors, shelving, cabinet glass, and tabletops. Bring the surrounding room into the conversation: lighting affects a mirror’s placement, cabinet construction affects inserts, and intended contents matter when planning shelves. Each application deserves its own sizing and installation review."},
-      {"heading":"What to include in your Cibolo inquiry","text":"Share your location, requested service, room photos, and timing priorities. Approximate dimensions can help begin a free estimate conversation, while fabrication sizes require the appropriate measurement process. Modern Glass serves Cibolo from its listed Converse business location. Confirm scheduling and project-specific availability directly with the team."}
+    "slug": "new-braunfels-glass-installation",
+    "city": "New Braunfels",
+    "h1": "Custom Glass Installation in New Braunfels, TX",
+    "metaTitle": "Custom Glass in New Braunfels, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves New Braunfels with frameless showers, custom mirrors, cabinet glass, and specialty installations. Request a free project estimate.",
+    "intro": "Bring a clearer view to your bathroom, cabinetry, or living space. Modern Glass serves New Braunfels with custom glass designed around the project you have in mind.",
+    "sections": [
+      {
+        "heading": "Plan the shower and vanity together",
+        "text": "If your New Braunfels project includes a bathroom renovation, review the shower enclosure and mirror as parts of the same room. Share the tile layout, vanity arrangement, and hardware preferences so the glass discussion reflects your complete design. Modern Glass offers custom frameless shower enclosures and mirrors; ask the team about suitable options for your opening and wall space."
+      },
+      {
+        "heading": "Custom details beyond the bathroom",
+        "text": "Cabinet inserts, glass shelves, tabletop glass, and specialty installations can help connect the design across a home. Explain how each piece will be used and which surfaces are complete. Final specifications and measurements should be confirmed for the actual application rather than copied from a similar project photo."
+      },
+      {
+        "heading": "Start with your project details",
+        "text": "Send your New Braunfels project address, photos, and the service you need to request a free estimate. Mention whether another contractor is still completing tile, cabinetry, or surrounding work. Modern Glass is based in Converse and serves New Braunfels; this page does not represent a separate local office."
+      }
     ],
-    "relatedCategories":["Shower planning","Estimates & installation"]
+    "relatedCategories": [
+      "Shower planning",
+      "Mirrors & interiors"
+    ],
+    "coverageStatus": "listed-on-original-site"
   },
   {
-    "slug":"schertz-glass-installation",
-    "city":"Schertz",
-    "h1":"Custom Glass Installation in Schertz, TX",
-    "metaTitle":"Custom Glass in Schertz, TX | Modern Glass",
-    "metaDescription":"Modern Glass provides custom glass services for Schertz projects, including showers, mirrors, and commercial installations. Ask for a free estimate.",
-    "intro":"From a home bathroom to a business interior, Modern Glass serves Schertz with custom glass projects shaped around the actual space.",
-    "sections":[
-      {"heading":"Glass for your Schertz home","text":"Discuss frameless shower enclosures, bathroom mirrors, cabinet inserts, shelving, and tabletop glass with Modern Glass. Bring photos of the full room, not only the opening. Nearby fixtures, finished surfaces, and daily use help guide a useful review of the proposed design. Ask about available hardware finishes and the care requirements for your selections."},
-      {"heading":"Planning work at a business property","text":"For a Schertz commercial project, explain the intended glass application and how the property operates. Customer access, delivery routes, building requirements, and other contractors may affect installation planning. Modern Glass offers commercial glass installation and repair; contact the team to discuss the specific scope rather than assuming every system or schedule is available."},
-      {"heading":"An estimate with clear responsibilities","text":"Request a free estimate using your project address, photos, and a short description of the work. Ask which preparation, removal, or surrounding repairs are included and which require another contractor. Modern Glass is based in Converse and serves Schertz. Confirm the approved layout and timing before ordering custom pieces."}
+    "slug": "cibolo-glass-installation",
+    "city": "Cibolo",
+    "h1": "Custom Glass Installation in Cibolo, TX",
+    "metaTitle": "Custom Glass in Cibolo, TX | Modern Glass",
+    "metaDescription": "Plan a Cibolo glass project with Modern Glass. Explore frameless shower enclosures, custom mirrors, shelves, and cabinet glass. Get a free estimate.",
+    "intro": "Updating one room or coordinating several glass features? Modern Glass serves Cibolo with custom installations for homes and businesses.",
+    "sections": [
+      {
+        "heading": "A practical plan for replacing shower glass",
+        "text": "A Cibolo shower replacement begins with the existing enclosure and the surfaces around it. Photograph the old framing, nearby fixtures, and the complete opening. Ask what removal and preparation are included, and identify any tile or finish repairs needed before final measurements. A new enclosure should fit the completed space and your preferred door movement."
+      },
+      {
+        "heading": "Mirrors and interior glass made for the space",
+        "text": "Modern Glass also offers custom mirrors, shelving, cabinet glass, and tabletops. Bring the surrounding room into the conversation: lighting affects a mirror’s placement, cabinet construction affects inserts, and intended contents matter when planning shelves. Each application deserves its own sizing and installation review."
+      },
+      {
+        "heading": "What to include in your Cibolo inquiry",
+        "text": "Share your location, requested service, room photos, and timing priorities. Approximate dimensions can help begin a free estimate conversation, while fabrication sizes require the appropriate measurement process. Modern Glass serves Cibolo from its listed Converse business location. Confirm scheduling and project-specific availability directly with the team."
+      }
     ],
-    "relatedCategories":["Specialty & commercial","Estimates & installation"]
+    "relatedCategories": [
+      "Shower planning",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "listed-on-original-site"
   },
   {
-    "slug":"san-marcos-glass-installation",
-    "city":"San Marcos",
-    "h1":"Custom Glass Installation in San Marcos, TX",
-    "metaTitle":"Custom Glass in San Marcos, TX | Modern Glass",
-    "metaDescription":"Request custom glass service in San Marcos from Modern Glass. Plan shower enclosures, mirrors, and specialty installations with a free project estimate.",
-    "intro":"A thoughtful glass project starts with how the space will be used. Modern Glass serves San Marcos with residential and commercial custom installations.",
-    "sections":[
-      {"heading":"Review the layout before choosing the look","text":"For a San Marcos bathroom, explain the shower entry, nearby fixtures, and any planned bench or tile details. A frameless appearance should be coordinated with door movement and finished measurements. Custom mirrors can be planned alongside the vanity and lighting so the completed room feels connected rather than assembled from unrelated choices."},
-      {"heading":"Discuss your specialty glass idea","text":"Modern Glass lists wine rooms, railings, butted glass, shelves, tabletops, and cabinet glass among its services. Describe the intended application and the surrounding construction. Performance requirements, supports, and work by other professionals may need review before a suitable scope can be proposed. An inspiration image starts the discussion; it does not establish the final design."},
-      {"heading":"Coordinate measurements with your project","text":"Tell the team which surfaces are finished and whether another contractor will change the area. Ask when final measurements should be taken and what approvals are needed before fabrication. Modern Glass serves San Marcos from its listed Converse location. Contact the business with your project address to request a free estimate and confirm scheduling."}
+    "slug": "schertz-glass-installation",
+    "city": "Schertz",
+    "h1": "Custom Glass Installation in Schertz, TX",
+    "metaTitle": "Custom Glass in Schertz, TX | Modern Glass",
+    "metaDescription": "Modern Glass provides custom glass services for Schertz projects, including showers, mirrors, and commercial installations. Ask for a free estimate.",
+    "intro": "From a home bathroom to a business interior, Modern Glass serves Schertz with custom glass projects shaped around the actual space.",
+    "sections": [
+      {
+        "heading": "Glass for your Schertz home",
+        "text": "Discuss frameless shower enclosures, bathroom mirrors, cabinet inserts, shelving, and tabletop glass with Modern Glass. Bring photos of the full room, not only the opening. Nearby fixtures, finished surfaces, and daily use help guide a useful review of the proposed design. Ask about available hardware finishes and the care requirements for your selections."
+      },
+      {
+        "heading": "Planning work at a business property",
+        "text": "For a Schertz commercial project, explain the intended glass application and how the property operates. Customer access, delivery routes, building requirements, and other contractors may affect installation planning. Modern Glass offers commercial glass installation and repair; contact the team to discuss the specific scope rather than assuming every system or schedule is available."
+      },
+      {
+        "heading": "An estimate with clear responsibilities",
+        "text": "Request a free estimate using your project address, photos, and a short description of the work. Ask which preparation, removal, or surrounding repairs are included and which require another contractor. Modern Glass is based in Converse and serves Schertz. Confirm the approved layout and timing before ordering custom pieces."
+      }
     ],
-    "relatedCategories":["Shower planning","Specialty & commercial"]
+    "relatedCategories": [
+      "Specialty & commercial",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "listed-on-original-site"
   },
   {
-    "slug":"la-vernia-glass-installation",
-    "city":"La Vernia",
-    "h1":"Custom Glass Installation in La Vernia, TX",
-    "metaTitle":"Custom Glass in La Vernia, TX | Modern Glass",
-    "metaDescription":"Modern Glass serves La Vernia with custom showers, mirrors, cabinet glass, shelves, and tabletops. Share your project details for a free glass estimate.",
-    "intro":"Make the glass details work together in your home. Modern Glass serves La Vernia with custom installations for bathrooms, cabinetry, and other interior spaces.",
-    "sections":[
-      {"heading":"Start with the bathroom’s daily routine","text":"Explain what you want to improve in your La Vernia bathroom, whether it is the view of the tile, mirror proportions, or the existing shower entry. Modern Glass offers frameless shower enclosures and custom mirrors. Show the complete layout and discuss the nearby fixtures before approving a panel arrangement or mirror size."},
-      {"heading":"Bring attention to the smaller glass details","text":"Cabinet inserts, display shelves, and tabletop glass can be planned around the furniture and cabinetry already in the home. Clarify whether a tabletop is a protective cover or a primary surface, and describe what shelves will hold. The intended function matters when discussing a custom piece’s specifications and installation."},
-      {"heading":"Share access and preparation information","text":"When requesting a free estimate, provide your La Vernia address, photos, and any access details relevant to the property. Mention ongoing renovation work and ask what must be complete for final measurements. Modern Glass is based in Converse and lists La Vernia within its service area. Confirm project suitability, scheduling, and the applicable warranty terms directly."}
+    "slug": "san-marcos-glass-installation",
+    "city": "San Marcos",
+    "h1": "Custom Glass Installation in San Marcos, TX",
+    "metaTitle": "Custom Glass in San Marcos, TX | Modern Glass",
+    "metaDescription": "Request custom glass service in San Marcos from Modern Glass. Plan shower enclosures, mirrors, and specialty installations with a free project estimate.",
+    "intro": "A thoughtful glass project starts with how the space will be used. Modern Glass serves San Marcos with residential and commercial custom installations.",
+    "sections": [
+      {
+        "heading": "Review the layout before choosing the look",
+        "text": "For a San Marcos bathroom, explain the shower entry, nearby fixtures, and any planned bench or tile details. A frameless appearance should be coordinated with door movement and finished measurements. Custom mirrors can be planned alongside the vanity and lighting so the completed room feels connected rather than assembled from unrelated choices."
+      },
+      {
+        "heading": "Discuss your specialty glass idea",
+        "text": "Modern Glass lists wine rooms, railings, butted glass, shelves, tabletops, and cabinet glass among its services. Describe the intended application and the surrounding construction. Performance requirements, supports, and work by other professionals may need review before a suitable scope can be proposed. An inspiration image starts the discussion; it does not establish the final design."
+      },
+      {
+        "heading": "Coordinate measurements with your project",
+        "text": "Tell the team which surfaces are finished and whether another contractor will change the area. Ask when final measurements should be taken and what approvals are needed before fabrication. Modern Glass serves San Marcos from its listed Converse location. Contact the business with your project address to request a free estimate and confirm scheduling."
+      }
     ],
-    "relatedCategories":["Mirrors & interiors","Glass choices"]
+    "relatedCategories": [
+      "Shower planning",
+      "Specialty & commercial"
+    ],
+    "coverageStatus": "listed-on-original-site"
   },
   {
-    "slug":"san-antonio-glass-installation",
-    "city":"San Antonio",
-    "h1":"Custom Glass Installation in San Antonio, TX",
-    "metaTitle":"Custom Glass in San Antonio, TX | Modern Glass",
-    "metaDescription":"Explore Modern Glass services for San Antonio, including frameless showers, mirrors, specialty glass, and commercial work. Request a free project estimate.",
-    "intro":"Custom glass for a bathroom update, an interior display, or a business project. Modern Glass serves San Antonio from its listed Converse business location.",
-    "sections":[
-      {"heading":"An enclosure that fits the actual bathroom","text":"Plan a San Antonio shower project around the completed opening and the room around it. Modern Glass offers custom frameless enclosures; share the tile layout, preferred hardware, and any concerns about the existing door. Final measurements and a clear description of the panels help connect the visual idea to an appropriate project scope."},
-      {"heading":"Residential and commercial applications","text":"Beyond shower glass, the business lists mirrors, wine rooms, railings, butted glass, cabinet inserts, shelves, tabletops, and commercial installation and repair. Describe your intended use rather than assuming a similar-looking product is suitable. For a business property, discuss access, operating activity, and any coordination required with other professionals."},
-      {"heading":"Compare the complete proposed work","text":"Request a free estimate and ask what is included in the quote. Removal, preparation, surrounding surface repairs, hardware selections, and installation responsibilities should be understandable before approval. Share your San Antonio project address and photos to confirm service and scheduling. The business’s listed physical address remains in Converse, not a separate San Antonio storefront."}
+    "slug": "la-vernia-glass-installation",
+    "city": "La Vernia",
+    "h1": "Custom Glass Installation in La Vernia, TX",
+    "metaTitle": "Custom Glass in La Vernia, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves La Vernia with custom showers, mirrors, cabinet glass, shelves, and tabletops. Share your project details for a free glass estimate.",
+    "intro": "Make the glass details work together in your home. Modern Glass serves La Vernia with custom installations for bathrooms, cabinetry, and other interior spaces.",
+    "sections": [
+      {
+        "heading": "Start with the bathroom’s daily routine",
+        "text": "Explain what you want to improve in your La Vernia bathroom, whether it is the view of the tile, mirror proportions, or the existing shower entry. Modern Glass offers frameless shower enclosures and custom mirrors. Show the complete layout and discuss the nearby fixtures before approving a panel arrangement or mirror size."
+      },
+      {
+        "heading": "Bring attention to the smaller glass details",
+        "text": "Cabinet inserts, display shelves, and tabletop glass can be planned around the furniture and cabinetry already in the home. Clarify whether a tabletop is a protective cover or a primary surface, and describe what shelves will hold. The intended function matters when discussing a custom piece’s specifications and installation."
+      },
+      {
+        "heading": "Share access and preparation information",
+        "text": "When requesting a free estimate, provide your La Vernia address, photos, and any access details relevant to the property. Mention ongoing renovation work and ask what must be complete for final measurements. Modern Glass is based in Converse and lists La Vernia within its service area. Confirm project suitability, scheduling, and the applicable warranty terms directly."
+      }
     ],
-    "relatedCategories":["Specialty & commercial","Shower planning"]
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Glass choices"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "austin-glass-installation",
+    "city": "Austin",
+    "h1": "Custom Glass Installation in Austin, TX",
+    "metaTitle": "Custom Glass in Austin, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Austin with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Austin with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Glass details for a coordinated interior",
+        "text": "If your Austin project combines shower glass, mirrors, and cabinet inserts, list each application separately. They can share a visual direction without sharing identical specifications. Show the room layouts and explain which finishes you want to coordinate. Ask about available choices before treating a particular glass appearance or hardware finish as approved."
+      },
+      {
+        "heading": "Plan work around the property",
+        "text": "Describe parking, building entry, delivery access, and other contractors working at the site. For a business or shared building, identify who handles the necessary property coordination. A useful schedule starts with the scope and finished conditions, not a date selected before those details are reviewed."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Austin address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Specialty & commercial"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "bastrop-glass-installation",
+    "city": "Bastrop",
+    "h1": "Custom Glass Installation in Bastrop, TX",
+    "metaTitle": "Custom Glass in Bastrop, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Bastrop with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Bastrop with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Plan a glass display around what it will hold",
+        "text": "For a Bastrop cabinet or shelving project, explain what you want to display and how the storage is used. Clear inserts and open shelves create different design questions. Provide photos of the cabinet doors, interior shelves, and surrounding finishes. The intended contents should guide the conversation alongside the appearance."
+      },
+      {
+        "heading": "Separate cabinetry work from glass work",
+        "text": "Ask who prepares cabinet openings or modifies existing doors if needed. Similar-looking openings may require individual measurements. Label the intended locations and discuss supports for shelving rather than choosing them from a photograph. Clarify these responsibilities before approving custom pieces."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Bastrop address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Glass choices"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "boerne-glass-installation",
+    "city": "Boerne",
+    "h1": "Custom Glass Installation in Boerne, TX",
+    "metaTitle": "Custom Glass in Boerne, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Boerne with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Boerne with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Keep the shower design connected to the room",
+        "text": "For a Boerne bathroom project, show the shower opening together with the vanity, toilet, and entrance. Door movement and panel layout should suit those relationships. If a bench or decorative tile feature is planned, include it in the discussion before measurements are finalized."
+      },
+      {
+        "heading": "Review the hardware as a complete set",
+        "text": "Bring examples of your preferred finish, then ask which handles, hinges, and other components suit the enclosure. Similar finish names may not look identical beside nearby fixtures. Confirm the agreed selections and care instructions so the finished room supports both your design goals and daily routine."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Boerne address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Shower planning",
+      "Glass choices"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "castroville-glass-installation",
+    "city": "Castroville",
+    "h1": "Custom Glass Installation in Castroville, TX",
+    "metaTitle": "Custom Glass in Castroville, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Castroville with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Castroville with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "A replacement begins with the existing enclosure",
+        "text": "If your Castroville project replaces old shower glass, photograph the framing, surrounding tile, and nearby fixtures. Describe what you want to improve. The new layout should be considered against the completed opening rather than assumed to match the old installation exactly."
+      },
+      {
+        "heading": "Clarify removal and surface preparation",
+        "text": "Ask whether removal and disposal are included and who repairs holes or unfinished areas exposed afterward. Tile or finish repairs may affect final measurements. A clear sequence helps separate the glass installation from unrelated bathroom work and makes the proposed estimate easier to understand."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Castroville address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Shower planning",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "cedar-park-glass-installation",
+    "city": "Cedar Park",
+    "h1": "Custom Glass Installation in Cedar Park, TX",
+    "metaTitle": "Custom Glass in Cedar Park, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Cedar Park with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Cedar Park with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Mirrors planned for the way a room is used",
+        "text": "A Cedar Park mirror project could involve a vanity, workout space, or decorative wall. Identify the intended reflection and the positions from which people will use it. Show nearby lights, outlets, trim, and furniture so the size is reviewed in context."
+      },
+      {
+        "heading": "Consider the complete wall before measuring",
+        "text": "Tell the team about any planned changes to lighting, cabinetry, or finishes. For a large arrangement, ask how panels and joints would relate to the room. Coordinate installation access before bringing furniture or equipment into the workspace. Final dimensions should reflect the approved, prepared wall."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Cedar Park address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "dripping-springs-glass-installation",
+    "city": "Dripping Springs",
+    "h1": "Custom Glass Installation in Dripping Springs, TX",
+    "metaTitle": "Custom Glass in Dripping Springs, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Dripping Springs with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Dripping Springs with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Coordinate glass with a wider renovation",
+        "text": "For a Dripping Springs renovation, include the glass layout in the contractor’s plan before surrounding work is finalized. Shower benches, thresholds, cabinetry, and adjoining surfaces can affect the installation. Show the complete design and identify which features are still changing."
+      },
+      {
+        "heading": "Give each trade a clear responsibility",
+        "text": "Ask who handles construction preparation, finished measurements, fabrication approval, and installation access. If a layout changes after the glass is measured, tell the installer immediately. A coordinated sequence helps avoid assuming that one trade’s work will compensate for an unrelated unfinished detail."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Dripping Springs address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Estimates & installation",
+      "Shower planning"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "floresville-glass-installation",
+    "city": "Floresville",
+    "h1": "Custom Glass Installation in Floresville, TX",
+    "metaTitle": "Custom Glass in Floresville, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Floresville with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Floresville with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Begin with a useful photo set",
+        "text": "For your Floresville inquiry, send a wide view of the room plus closer images of the opening or intended glass location. Explain whether the project involves a shower, mirror, cabinet insert, shelf, or tabletop. Keep inspiration images separate from photos showing the actual property."
+      },
+      {
+        "heading": "Describe access and timing upfront",
+        "text": "Share the project address, delivery route, and any ongoing renovation work. Approximate dimensions can help begin the estimate conversation, but custom pieces need the appropriate final measurement process. Ask which tasks must be completed before that appointment and what happens if the surrounding work changes."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Floresville address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Estimates & installation",
+      "Mirrors & interiors"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "fredericksburg-glass-installation",
+    "city": "Fredericksburg",
+    "h1": "Custom Glass Installation in Fredericksburg, TX",
+    "metaTitle": "Custom Glass in Fredericksburg, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Fredericksburg with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Fredericksburg with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Make specialty glass part of the complete design",
+        "text": "If your Fredericksburg project involves a wine display, decorative division, or other specialty installation, describe the intended function before choosing the appearance. Show racks, lighting, furniture, and surrounding surfaces. A reference image communicates style but does not establish a suitable design for the actual space."
+      },
+      {
+        "heading": "Separate glass scope from specialist systems",
+        "text": "A glass wine-room enclosure does not automatically include environmental design. A railing also needs review appropriate to its location and supporting construction. Explain any performance requirements and ask which professionals need to coordinate before measurements, approval, and installation can proceed."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Fredericksburg address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Specialty & commercial",
+      "Glass choices"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "kerrville-glass-installation",
+    "city": "Kerrville",
+    "h1": "Custom Glass Installation in Kerrville, TX",
+    "metaTitle": "Custom Glass in Kerrville, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Kerrville with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Kerrville with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Discuss the application before the glass selection",
+        "text": "For a Kerrville project, distinguish shower panels, mirrors, shelves, tabletops, and railing applications. Each has different practical requirements. Describe who will use the installation and what it needs to do, rather than assuming similar-looking pieces can share the same specification."
+      },
+      {
+        "heading": "Keep support and preparation visible in the scope",
+        "text": "Ask about surrounding construction, attachment conditions, and work that may need another professional. Explain the property’s access conditions before scheduling. Reviewing the complete application helps connect the desired appearance to final measurements, suitable components, and clear installation responsibilities."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Kerrville address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Glass choices",
+      "Specialty & commercial"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "marble-falls-glass-installation",
+    "city": "Marble Falls",
+    "h1": "Custom Glass Installation in Marble Falls, TX",
+    "metaTitle": "Custom Glass in Marble Falls, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Marble Falls with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Marble Falls with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Tabletop glass should match the furniture",
+        "text": "For a Marble Falls tabletop project, clarify whether you want a protective cover or a primary glass surface. Show the furniture’s shape, base, existing finish, and intended use. Those details help the team discuss suitability before choosing dimensions or edge appearance."
+      },
+      {
+        "heading": "Confirm the outline and delivery arrangements",
+        "text": "Ask how curves, corners, or unusual shapes will be measured and approved. Explain doorways, stairs, and placement access at the property. Confirm whether the estimate includes fabrication, delivery, and installation, and request care instructions for the approved arrangement."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Marble Falls address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Glass choices"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "pleasanton-glass-installation",
+    "city": "Pleasanton",
+    "h1": "Custom Glass Installation in Pleasanton, TX",
+    "metaTitle": "Custom Glass in Pleasanton, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Pleasanton with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Pleasanton with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Give a guest bathroom a practical update",
+        "text": "If your Pleasanton project updates a guest bathroom, prioritize a straightforward shower entry and a useful vanity reflection. Show the entire room and explain which features feel awkward now. A cleaner appearance should remain connected to easy use and the available space."
+      },
+      {
+        "heading": "Make maintenance part of the design conversation",
+        "text": "Ask which products suit the proposed glass and hardware. Plan towel and toiletry locations without relying on improvised attachments to the enclosure. Care requirements and accessory placement deserve attention before final selections, not only after the installation is complete."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Pleasanton address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Shower planning",
+      "Glass care"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "round-rock-glass-installation",
+    "city": "Round Rock",
+    "h1": "Custom Glass Installation in Round Rock, TX",
+    "metaTitle": "Custom Glass in Round Rock, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Round Rock with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Round Rock with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Commercial glass begins with business activity",
+        "text": "For a Round Rock business project, explain how the area operates, who uses it, and where people need access. Partitions, doors, and repair requests involve different scope questions. Share the layout and intended function rather than only an image of the desired style."
+      },
+      {
+        "heading": "Coordinate the building and work area",
+        "text": "Identify who handles property requirements, site preparation, and other contractors. Discuss delivery access and scheduling around business activity. If privacy or another performance goal matters, ask for review of the complete proposed system instead of assuming the glass appearance provides that result."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Round Rock address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Specialty & commercial",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "spicewood-glass-installation",
+    "city": "Spicewood",
+    "h1": "Custom Glass Installation in Spicewood, TX",
+    "metaTitle": "Custom Glass in Spicewood, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Spicewood with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Spicewood with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Review the view from the positions that matter",
+        "text": "For a Spicewood interior glass project, show what people will see from the doorway, seating, or vanity. Mirrors repeat the opposite side of a room, while transparent panels reveal what is behind them. Consider the everyday space rather than only an empty, staged layout."
+      },
+      {
+        "heading": "Balance visual openness with practical details",
+        "text": "Ask where supports, joints, and hardware would sit in the proposed design. If the project involves a railing, involve the appropriate professionals in reviewing its application and attachment conditions. An open appearance is one goal; it does not replace the installation requirements of the complete system."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Spicewood address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Specialty & commercial"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "wimberley-glass-installation",
+    "city": "Wimberley",
+    "h1": "Custom Glass Installation in Wimberley, TX",
+    "metaTitle": "Custom Glass in Wimberley, TX | Modern Glass",
+    "metaDescription": "Modern Glass serves Wimberley with custom shower glass, mirrors, and specialty installations. Share your project details to request a free estimate.",
+    "intro": "Modern Glass serves Wimberley with custom glass projects. Start with the space, its intended use, and the details that matter to your home or business.",
+    "sections": [
+      {
+        "heading": "Build a coherent bathroom glass plan",
+        "text": "For your Wimberley project, review the shower enclosure and mirror together with tile, lighting, and storage. Explain whether your priority is a clearer view, better entry, or a more balanced vanity wall. Each feature should contribute to the completed bathroom’s use."
+      },
+      {
+        "heading": "Confirm design changes before the order",
+        "text": "A moved fixture, revised bench, or added finish can change the conditions used for custom measurements. Tell the installer about pending work and ask which selections need written approval. Keep the layout, glass choice, hardware, and surrounding preparation connected throughout the renovation."
+      },
+      {
+        "heading": "Request a project-specific estimate",
+        "text": "Contact Modern Glass with your Wimberley address, photos, and requested service for a free estimate. Ask about final measurements, preparation, scheduling, and the applicable warranty terms. The business’s listed physical location is in Converse; this service-area page does not represent another office."
+      }
+    ],
+    "relatedCategories": [
+      "Shower planning",
+      "Mirrors & interiors"
+    ],
+    "coverageStatus": "listed-on-original-site"
+  },
+  {
+    "slug": "marion-glass-installation",
+    "city": "Marion",
+    "h1": "Custom Glass Project Requests in Marion, TX",
+    "metaTitle": "Custom Glass in Marion, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Marion? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Marion? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Describe the glass project at your Marion property",
+        "text": "Share the requested application, full-room photos, and your preferred result. For a shower, include nearby fixtures and the door path. For mirrors or cabinet glass, show the full wall or cabinetry rather than a cropped opening. This information helps the team review the inquiry before discussing measurements."
+      },
+      {
+        "heading": "Clarify readiness before requesting a date",
+        "text": "Explain whether tile, trim, cabinetry, or other surfaces are complete. Ask about the proposed scope, preparation, and availability for your address before planning an installation appointment. An early inquiry is useful even when the renovation is not yet ready for final measurements."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Marion is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Estimates & installation",
+      "Shower planning"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "mcqueeney-glass-installation",
+    "city": "McQueeney",
+    "h1": "Custom Glass Project Requests in McQueeney, TX",
+    "metaTitle": "Custom Glass in McQueeney, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in McQueeney? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in McQueeney? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Plan glass around existing furniture and finishes",
+        "text": "For a McQueeney inquiry, describe how the glass will be used and what it needs to fit. A tabletop cover, display shelf, or cabinet insert should be reviewed against the actual furniture and cabinetry. Include dimensions as preliminary information and ask how final sizing is confirmed."
+      },
+      {
+        "heading": "Discuss the details beyond the outline",
+        "text": "Edge appearance, supports, access, and care can all matter to the finished piece. Do not assume a matching shape alone establishes a suitable installation. Ask the team to review the application and confirm whether your address and project can be accommodated before ordering."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for McQueeney is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Glass choices"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "geronimo-glass-installation",
+    "city": "Geronimo",
+    "h1": "Custom Glass Project Requests in Geronimo, TX",
+    "metaTitle": "Custom Glass in Geronimo, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Geronimo? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Geronimo? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Start a bathroom inquiry with the full layout",
+        "text": "For a Geronimo shower or mirror project, show the entry, vanity, lights, and surrounding surfaces. Explain any awkward movement in the existing bathroom and identify what will change during renovation. That brief is more useful than an inspiration image without information about your property."
+      },
+      {
+        "heading": "Review final measurements and room access",
+        "text": "Ask which surfaces need to be finished and what access the glass team would need. If a contractor is still changing the room, keep the proposed measurement date connected to that work. Confirm service availability and the project scope before approving an order."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Geronimo is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Shower planning",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "kingsbury-glass-installation",
+    "city": "Kingsbury",
+    "h1": "Custom Glass Project Requests in Kingsbury, TX",
+    "metaTitle": "Custom Glass in Kingsbury, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Kingsbury? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Kingsbury? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Prepare an estimate inquiry for the actual site",
+        "text": "For a Kingsbury project, provide the address, requested glass service, and photos of the location. Describe entrances, delivery routes, or ongoing work that may affect access. A practical property brief helps the team review the request without making assumptions about the site."
+      },
+      {
+        "heading": "Keep the requested work clearly defined",
+        "text": "Identify whether the inquiry involves new glass, replacement, or a repair concern. Explain what is visible without attempting to diagnose or handle damaged glass. Ask the team about assessment, final measurements, and availability for your location before committing to a schedule."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Kingsbury is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Estimates & installation",
+      "Glass care"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "luling-glass-installation",
+    "city": "Luling",
+    "h1": "Custom Glass Project Requests in Luling, TX",
+    "metaTitle": "Custom Glass in Luling, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Luling? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Luling? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Separate replacement goals from repair questions",
+        "text": "For a Luling inquiry, describe whether you want a different appearance or need help with an existing concern. Photos of the complete installation can explain the context. A repair request should identify what you observed without assuming the cause or the appropriate solution."
+      },
+      {
+        "heading": "Understand the preparation around new glass",
+        "text": "If replacement is proposed, ask about removal, disposal, adjacent repairs, and final measurement timing. The glass scope may differ from surrounding tile or finish work. Confirm availability for your property and review those responsibilities before approving the project."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Luling is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Glass care",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "lockhart-glass-installation",
+    "city": "Lockhart",
+    "h1": "Custom Glass Project Requests in Lockhart, TX",
+    "metaTitle": "Custom Glass in Lockhart, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Lockhart? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Lockhart? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Plan display glass around your storage habits",
+        "text": "For a Lockhart cabinet or shelving inquiry, describe the objects you want to show and how frequently you access them. Clear glass reveals the cabinet interior, while alternative appearances may obscure some details. Ask about suitable available options rather than choosing only from a photograph."
+      },
+      {
+        "heading": "Review cabinetry and shelf support separately",
+        "text": "Explain how the doors or shelving location are built. Preparation or support work may involve another professional, depending on the application. Confirm the proposed responsibilities, final sizing process, and service availability for your address before ordering custom pieces."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Lockhart is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Glass choices"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "kyle-glass-installation",
+    "city": "Kyle",
+    "h1": "Custom Glass Project Requests in Kyle, TX",
+    "metaTitle": "Custom Glass in Kyle, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Kyle? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Kyle? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Keep a bathroom project focused on daily use",
+        "text": "For a Kyle inquiry, explain how the shower entry and vanity work now and what you want to improve. Show nearby fixtures, lighting, and storage. Glass choices should support the actual room rather than force a preferred photograph into an unsuitable layout."
+      },
+      {
+        "heading": "Coordinate the enclosure with the renovation",
+        "text": "Tell the team which surfaces are finished and which may still change. Ask about the measurement process, proposed hardware, and preparation requirements. Confirm scheduling and service availability for the address before treating a preliminary discussion as an approved installation plan."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Kyle is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Shower planning",
+      "Estimates & installation"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "buda-glass-installation",
+    "city": "Buda",
+    "h1": "Custom Glass Project Requests in Buda, TX",
+    "metaTitle": "Custom Glass in Buda, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Buda? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Buda? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Bring a whole-room view to your glass inquiry",
+        "text": "For a Buda mirror or interior glass project, photograph the entire room and describe how the feature will be used. A mirror’s reflection, a shelf’s contents, and a tabletop’s support arrangement each deserve their own review. Appearance alone does not establish the right specification."
+      },
+      {
+        "heading": "Define the project before selecting components",
+        "text": "Share your priorities and ask which choices are suitable and available. Explain planned furniture, cabinetry, or lighting changes that could affect dimensions. Confirm whether your property and scope can be accommodated before approving fabrication or scheduling installation."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Buda is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Mirrors & interiors",
+      "Glass choices"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "bulverde-glass-installation",
+    "city": "Bulverde",
+    "h1": "Custom Glass Project Requests in Bulverde, TX",
+    "metaTitle": "Custom Glass in Bulverde, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Bulverde? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Bulverde? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Review specialty glass alongside the construction",
+        "text": "For a Bulverde inquiry involving railings, panels, or another specialty application, explain the location and intended function. Show supporting surfaces and any plans prepared by your contractor. The visible design should be discussed alongside the conditions needed for a suitable installation."
+      },
+      {
+        "heading": "Identify who reviews the complete system",
+        "text": "Ask which professionals need to assess the application, supporting construction, and any performance requirements. Clarify the glass team’s scope and the work handled by others. Confirm project suitability and availability for your address before moving from an initial idea to an approved order."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Bulverde is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Specialty & commercial",
+      "Glass choices"
+    ],
+    "coverageStatus": "confirm-availability"
+  },
+  {
+    "slug": "spring-branch-glass-installation",
+    "city": "Spring Branch",
+    "h1": "Custom Glass Project Requests in Spring Branch, TX",
+    "metaTitle": "Custom Glass in Spring Branch, TX | Modern Glass",
+    "metaDescription": "Planning custom glass in Spring Branch? Contact Modern Glass about showers, mirrors, and specialty projects. Confirm service availability for your address.",
+    "intro": "Planning a glass project in Spring Branch? Use this guide to prepare your inquiry, then contact Modern Glass to confirm whether your location and scope can be accommodated.",
+    "sections": [
+      {
+        "heading": "Organize the glass features by application",
+        "text": "For a Spring Branch inquiry, list shower glass, mirrors, cabinet inserts, or other pieces separately. They may share a design direction while needing different measurements and specifications. Include photos of each location and explain the intended use so the discussion stays organized."
+      },
+      {
+        "heading": "Connect your schedule to completed conditions",
+        "text": "Describe other contractors involved and when surrounding surfaces will be ready. Ask which measurements or approvals are needed for each piece. Confirm service availability for the property, installation responsibilities, and care requirements before setting the final project plan."
+      },
+      {
+        "heading": "Confirm availability before proceeding",
+        "text": "Service availability for Spring Branch is confirmed per project. Share your address, photos, and requested scope with Modern Glass before making installation plans. Ask whether the property can be accommodated and which preparation, measurement, and scheduling steps would apply."
+      }
+    ],
+    "relatedCategories": [
+      "Estimates & installation",
+      "Mirrors & interiors"
+    ],
+    "coverageStatus": "confirm-availability"
   }
 ]

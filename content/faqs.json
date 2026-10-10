@@ -1,16 +1,72 @@
 [
-  {"category":"Getting started", "question":"Do you install custom glass in Seguin, TX?", "answer":"Yes. Seguin is part of Modern Glass’s service area. We also serve New Braunfels, Cibolo, Schertz, San Marcos, La Vernia, and the greater San Antonio area. Tell us your project address when requesting an estimate so we can confirm scheduling."},
-  {"category":"Getting started", "question":"Are glass installation estimates free?", "answer":"Yes. Modern Glass offers free, no-obligation estimates. Share the type of glass you need, your project location, and any photos or approximate dimensions. Final measurements and project details determine the quote."},
-  {"category":"Getting started", "question":"What glass services can I request?", "answer":"Our services include frameless shower enclosures, custom mirrors, glass wine rooms, railings, butted glass panels, cabinet glass, glass shelves, glass tabletops, and residential and commercial glass installation and repair."},
-  {"category":"Getting started", "question":"What information helps you prepare my estimate?", "answer":"Tell us your city, the space you are updating, the glass style you have in mind, and your preferred schedule. Photos and approximate dimensions can help begin the conversation, but they do not replace final professional measurements."},
-  {"category":"Shower glass", "question":"Can you create a shower enclosure for my bathroom layout?", "answer":"Yes. Modern Glass specializes in custom glass designs. We can discuss your opening, tile layout, door movement, hardware preferences, and the look you want before confirming the appropriate enclosure for your bathroom."},
-  {"category":"Shower glass", "question":"How much does a frameless shower enclosure cost?", "answer":"Pricing depends on the enclosure size, panel layout, glass selection, hardware, and installation requirements. Contact Modern Glass for a project-specific estimate rather than relying on a price for a different bathroom."},
-  {"category":"Shower glass", "question":"When should I arrange final shower measurements?", "answer":"Ask us to coordinate measurement with your renovation schedule. Finished tile, thresholds, and other surfaces affect the final glass dimensions. Our team can explain which work needs to be completed before your enclosure is measured."},
-  {"category":"Shower glass", "question":"How should I care for my shower glass?", "answer":"Use the cleaning instructions supplied for your glass and hardware. A soft cloth and regular removal of water droplets help maintain the finish. Ask us about suitable cleaners for your specific installation before using abrasive tools or strong chemicals."},
-  {"category":"Other glass", "question":"Do you install custom mirrors and cabinet glass?", "answer":"Yes. Modern Glass provides mirrors for bathrooms, gyms, closets, and decorative walls, along with custom glass cabinet inserts. We also offer glass shelves and tabletop glass to complement your space."},
-  {"category":"Other glass", "question":"Can you help with commercial glass projects?", "answer":"Yes. We offer glass installation and repair for commercial spaces, including partitions, doors, and custom glass solutions. Share your business location and project requirements so we can discuss the scope."},
-  {"category":"Other glass", "question":"Do you offer glass repair services?", "answer":"Yes. Modern Glass offers residential and commercial glass repair. Describe the damage and send photos by email if possible. We will discuss whether repair or replacement is appropriate for the installation."},
-  {"category":"Timing & warranty", "question":"How long does installation take after measurements?", "answer":"Modern Glass’s existing FAQ lists a typical turnaround of 4–5 days after final measurements or customer approval. Your glass selection, project scope, and current schedule can affect timing, so confirm your project’s lead time directly with our team."},
-  {"category":"Timing & warranty", "question":"Is installation covered by a warranty?", "answer":"Modern Glass advertises a one-year installation warranty on its existing website and states that shattered pieces may be replaced at a reduced price. Ask our team for the applicable terms and coverage for your specific project before proceeding."},
-  {"category":"Timing & warranty", "question":"Do you have a storefront in Seguin?", "answer":"Modern Glass serves Seguin from its listed business location in Converse, Texas. This website focuses on projects in Seguin and nearby communities. Contact us to arrange an estimate and confirm whether a visit to the listed address is appropriate."}
+  {
+    "category": "Getting started",
+    "question": "Do you install custom glass in Seguin, TX?",
+    "answer": "Yes. Seguin is part of Modern Glass’s established service area. Explore the service-area directory for 30 locations, including New Braunfels, Cibolo, Schertz, San Marcos, La Vernia, Austin, and other communities. Additional inquiry areas are labeled for availability confirmation. Contact the team with your address to confirm coverage and scheduling."
+  },
+  {
+    "category": "Getting started",
+    "question": "Are glass installation estimates free?",
+    "answer": "Yes. Modern Glass offers free, no-obligation estimates. Share the type of glass you need, your project location, and any photos or approximate dimensions. Final measurements and project details determine the quote."
+  },
+  {
+    "category": "Getting started",
+    "question": "What glass services can I request?",
+    "answer": "Our services include frameless shower enclosures, custom mirrors, glass wine rooms, railings, butted glass panels, cabinet glass, glass shelves, glass tabletops, and residential and commercial glass installation and repair."
+  },
+  {
+    "category": "Getting started",
+    "question": "What information helps you prepare my estimate?",
+    "answer": "Tell us your city, the space you are updating, the glass style you have in mind, and your preferred schedule. Photos and approximate dimensions can help begin the conversation, but they do not replace final professional measurements."
+  },
+  {
+    "category": "Shower glass",
+    "question": "Can you create a shower enclosure for my bathroom layout?",
+    "answer": "Yes. Modern Glass specializes in custom glass designs. We can discuss your opening, tile layout, door movement, hardware preferences, and the look you want before confirming the appropriate enclosure for your bathroom."
+  },
+  {
+    "category": "Shower glass",
+    "question": "How much does a frameless shower enclosure cost?",
+    "answer": "Pricing depends on the enclosure size, panel layout, glass selection, hardware, and installation requirements. Contact Modern Glass for a project-specific estimate rather than relying on a price for a different bathroom."
+  },
+  {
+    "category": "Shower glass",
+    "question": "When should I arrange final shower measurements?",
+    "answer": "Ask us to coordinate measurement with your renovation schedule. Finished tile, thresholds, and other surfaces affect the final glass dimensions. Our team can explain which work needs to be completed before your enclosure is measured."
+  },
+  {
+    "category": "Shower glass",
+    "question": "How should I care for my shower glass?",
+    "answer": "Use the cleaning instructions supplied for your glass and hardware. A soft cloth and regular removal of water droplets help maintain the finish. Ask us about suitable cleaners for your specific installation before using abrasive tools or strong chemicals."
+  },
+  {
+    "category": "Other glass",
+    "question": "Do you install custom mirrors and cabinet glass?",
+    "answer": "Yes. Modern Glass provides mirrors for bathrooms, gyms, closets, and decorative walls, along with custom glass cabinet inserts. We also offer glass shelves and tabletop glass to complement your space."
+  },
+  {
+    "category": "Other glass",
+    "question": "Can you help with commercial glass projects?",
+    "answer": "Yes. We offer glass installation and repair for commercial spaces, including partitions, doors, and custom glass solutions. Share your business location and project requirements so we can discuss the scope."
+  },
+  {
+    "category": "Other glass",
+    "question": "Do you offer glass repair services?",
+    "answer": "Yes. Modern Glass offers residential and commercial glass repair. Describe the damage and send photos by email if possible. We will discuss whether repair or replacement is appropriate for the installation."
+  },
+  {
+    "category": "Timing & warranty",
+    "question": "How long does installation take after measurements?",
+    "answer": "Modern Glass’s existing FAQ lists a typical turnaround of 4–5 days after final measurements or customer approval. Your glass selection, project scope, and current schedule can affect timing, so confirm your project’s lead time directly with our team."
+  },
+  {
+    "category": "Timing & warranty",
+    "question": "Is installation covered by a warranty?",
+    "answer": "Modern Glass advertises a one-year installation warranty on its existing website and states that shattered pieces may be replaced at a reduced price. Ask our team for the applicable terms and coverage for your specific project before proceeding."
+  },
+  {
+    "category": "Timing & warranty",
+    "question": "Do you have a storefront in Seguin?",
+    "answer": "Modern Glass serves Seguin from its listed business location in Converse, Texas. This website focuses on projects in Seguin and nearby communities. Contact us to arrange an estimate and confirm whether a visit to the listed address is appropriate."
+  }
 ]

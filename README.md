@@ -13,7 +13,7 @@ npm test
 
 Import this repository into Vercel. `vercel.json` sets the build command and `dist` output. Set `SITE_URL` to the **new** website’s HTTPS origin when the domain is known. The build also recognizes `VERCEL_PROJECT_PRODUCTION_URL`. Canonical URLs and the XML sitemap are generated only when an origin is available; the original business domain is deliberately not used as the canonical origin.
 
-Pages: Home, About, FAQ, Reviews, Gallery, Contact, a service-area directory, six city pages, a searchable Central Texas blog with 50 articles, and a custom 404. All content and SEO metadata render to HTML at build time. The site does not require JavaScript to display its page content.
+Pages: Home, About, FAQ, Reviews, Gallery, Contact, a service-area directory, 30 city pages, a searchable Central Texas blog with 50 articles, and a custom 404. All content and SEO metadata render to HTML at build time. The site does not require JavaScript to display its page content.
 
 ## Business content
 
@@ -39,7 +39,7 @@ Project photographs currently use the original GoDaddy image CDN with resized UR
 
 ## Service-area pages and Central Texas articles
 
-The site contains six service-area pages for New Braunfels, Cibolo, Schertz, San Marcos, La Vernia, and San Antonio, plus 50 distinct Central Texas blog articles. The homepage and core service pages retain Seguin as the primary focus. Each article contains exactly 300 body words, excluding the H1, metadata, sources, related cards, and shared call to action. Blog pages use regional calls to action rather than Seguin-focused copy.
+The site contains 30 city pages, excluding San Antonio and Converse, plus 50 distinct Central Texas blog articles. Twenty cities are listed on the original business website. Ten additional inquiry locations—Marion, McQueeney, Geronimo, Kingsbury, Luling, Lockhart, Kyle, Buda, Bulverde, and Spring Branch—are labeled for availability confirmation. The `confirmedAreas` collection supplies LocalBusiness `areaServed` schema; added inquiry locations are not asserted as verified coverage. Converse remains only the actual business location, not a target service-area page. The homepage and core service pages retain Seguin as the primary focus. Each article contains exactly 300 body words, excluding the H1, metadata, sources, related cards, and shared call to action. Blog pages use regional calls to action rather than Seguin-focused copy.
 
 Add area records to `content/area-pages.json`:
 
