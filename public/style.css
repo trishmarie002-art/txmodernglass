@@ -20,3 +20,10 @@
 /* Logo-blue free estimate button. */
 .header-quote{background:var(--cyan);color:var(--ink);border-color:var(--cyan)}
 .header-quote:hover{background:#a0d9ee;border-color:#a0d9ee}
+
+.home-contact{background:#eef9fc;border-block:1px solid var(--line)}
+.home-contact .contact-layout{padding-top:85px;padding-bottom:85px;align-items:start}
+.home-contact-copy>p:not(.eyebrow){max-width:480px;color:var(--muted)}
+.home-contact .inquiry-form>.button{background:var(--cyan);color:var(--ink)}
+.home-contact .inquiry-form>.button:hover{background:#a0d9ee}
+@media(max-width:600px){.home-contact .contact-layout{padding-top:55px;padding-bottom:55px}.home-contact-copy h2{font-size:38px}}
