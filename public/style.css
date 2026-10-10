@@ -16,3 +16,7 @@
 @media(max-width:1150px){.hero-controls{right:32px}}
 @media(max-width:600px){.hero-controls{right:20px;bottom:18px;gap:12px;padding:5px 10px}.hero:has(.hero-controls) .hero-index{display:none}}
 @media(prefers-reduced-motion:reduce){.hero-image .hero-slide{transition:none}}
+
+/* Logo-blue free estimate button. */
+.header-quote{background:var(--cyan);color:var(--ink);border-color:var(--cyan)}
+.header-quote:hover{background:#a0d9ee;border-color:#a0d9ee}
