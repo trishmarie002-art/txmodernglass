@@ -228,3 +228,33 @@ body>header,body>main,body>footer,body>.topbar{max-width:100%;overflow-x:clip}
  height:1px!important;min-height:0!important;padding:0!important;margin:0!important;
  border:0!important;overflow:hidden!important;opacity:0!important;
 }
+
+/* Narrow, comfortably inset contact cards on small screens. */
+@media(max-width:600px){
+ .contact-layout,.home-contact .contact-layout{
+  width:calc(100% - 40px)!important;
+  max-width:440px!important;
+  margin-inline:auto;
+  padding-inline:0;
+  box-sizing:border-box;
+ }
+ .contact-layout .inquiry-form,.home-contact .inquiry-form{
+  width:100%;
+  max-width:100%;
+  padding:22px 18px;
+  box-sizing:border-box;
+  border-radius:10px;
+ }
+ .contact-layout .form-grid,.home-contact .form-grid{
+  grid-template-columns:minmax(0,1fr);
+  gap:0;
+ }
+ .contact-layout .inquiry-form input:not([type=hidden]),
+ .contact-layout .inquiry-form select,
+ .contact-layout .inquiry-form textarea{
+  width:100%;
+  max-width:100%;
+  box-sizing:border-box;
+ }
+ .contact-layout .inquiry-form h2{font-size:clamp(24px,7vw,30px);line-height:1.15}
+}
