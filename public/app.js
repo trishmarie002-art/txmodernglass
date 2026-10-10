@@ -46,3 +46,26 @@ if(funnel){
  funnel.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(funnel),key=['service','property','city','timing'][step],value=String(data.get(key)||'').trim();if(!value){error.textContent=step===2?'Please enter your project city.':'Please choose an option to continue.';steps[step].querySelector('input').focus();return;}if(step<3){step++;renderFunnel();return;}steps.forEach(el=>el.hidden=true);controls.hidden=true;progress.hidden=true;error.textContent='';result.hidden=false;if(emailForm){for(const key of ['service','property','city','timing'])emailForm.elements.namedItem(key).value=String(data.get(key)||'').trim();emailForm.hidden=false;}const summary=`Service: ${data.get('service')}\nProperty: ${data.get('property')}\nCity: ${String(data.get('city')).trim()}\nTiming: ${data.get('timing')}`;funnel.querySelector('#funnel-summary').textContent=summary;result.focus();});
  funnel.querySelector('#funnel-restart').addEventListener('click',()=>{step=0;renderFunnel()});renderFunnel(false);
 }
+
+/* Temporary, opt-in layout diagnostic. Never reads form entries or transmits data. */
+if(new URLSearchParams(location.search).has('overflow-debug')){
+ const panel=document.createElement('div');
+ panel.style.cssText='position:fixed;z-index:2147483647;top:8px;left:8px;right:8px;max-height:45dvh;overflow:auto;background:#fff;color:#111;border:2px solid #de3f3f;padding:10px;font:12px/1.4 monospace;box-shadow:0 2px 14px #0005';
+ const title=document.createElement('strong');title.textContent='Mobile overflow check';
+ const output=document.createElement('pre');output.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere;margin:8px 0';
+ const scan=document.createElement('button');scan.type='button';scan.textContent='Scan again';
+ const copy=document.createElement('button');copy.type='button';copy.textContent='Copy results';copy.style.marginLeft='8px';
+ panel.append(title,scan,copy,output);document.body.append(panel);
+ function diagnose(){
+  const w=document.documentElement.clientWidth;
+  const hits=[...document.querySelectorAll('body *')].filter(el=>{
+   if(panel.contains(el)||el===panel)return false;
+   const cs=getComputedStyle(el),r=el.getBoundingClientRect();
+   return cs.display!=='none'&&cs.visibility!=='hidden'&&r.width>0&&(r.right>w+2||r.left< -2);
+  }).map(el=>{const r=el.getBoundingClientRect();return (el.tagName.toLowerCase()+(el.id?'#'+el.id:'')+[...el.classList].slice(0,2).map(x=>'.'+x).join(''))+' right='+Math.round(r.right)+' left='+Math.round(r.left)}).slice(0,15);
+  output.textContent='Viewport: '+w+'px\nDocument: '+document.documentElement.scrollWidth+'px\nBody: '+document.body.scrollWidth+'px\nOffscreen elements:\n'+(hits.join('\n')||'None detected');
+ }
+ scan.addEventListener('click',diagnose);
+ copy.addEventListener('click',()=>{if(navigator.clipboard?.writeText)navigator.clipboard.writeText(output.textContent).then(()=>{copy.textContent='Copied';}).catch(()=>{copy.textContent='Select text below';});else copy.textContent='Select text below';});
+ diagnose();
+}
