@@ -98,3 +98,15 @@ main>section,.hero,.ticker,.story-band,.reviews-section,.areas-band,.home-contac
  .section-heading>*{min-width:0}
  .services-grid,.project-grid,.footer-grid{min-width:0}
 }
+
+/* Homepage third-party reviews must not enlarge the page's scroll width. */
+.reviews-section,.reviews-section .container,.reviews-wrap{min-width:0;max-width:100%}
+.reviews-wrap{width:100%;overflow-x:clip;contain:inline-size}
+.reviews-wrap [class*="elfsight-app-"]{min-width:0;max-width:100%;overflow-x:clip}
+.home-projects,.home-contact .contact-layout,.faq-preview{min-width:0;max-width:100%}
+.home-contact .contact-layout>*,.faq-preview>*,.home-projects>*{min-width:0}
+@media(max-width:900px){
+ .home-contact .inquiry-form,.home-contact-copy{min-width:0;max-width:100%}
+ .hero-copy{min-width:0;max-width:100%}
+ .hero h1{overflow-wrap:anywhere}
+}
