@@ -195,3 +195,18 @@ body>header,body>main,body>footer,body>.topbar{max-width:100%;overflow-x:clip}
  .contact-info .big-phone{font-size:clamp(22px,7vw,29px)}
  .inquiry-form .button{max-width:100%;white-space:normal}
 }
+
+/* Form sections are the only reported mobile overflow locations. Contain them at source. */
+@media(max-width:900px){
+ .contact-layout,.home-contact .contact-layout,.contact-info,.home-contact-copy,
+ .inquiry-form,.form-grid,.inquiry-form label{box-sizing:border-box;min-width:0;max-width:100%;inline-size:auto}
+ .contact-layout,.home-contact .contact-layout{display:grid;grid-template-columns:minmax(0,1fr);overflow-x:clip}
+ .contact-info,.home-contact-copy,.inquiry-form{overflow-x:clip;contain:inline-size}
+ .form-grid{display:grid;grid-template-columns:minmax(0,1fr);width:100%}
+ .form-grid label{display:block;min-width:0;width:100%}
+ .inquiry-form input:not([type=hidden]),.inquiry-form select,.inquiry-form textarea{
+  display:block;box-sizing:border-box;width:100%;min-width:0;max-width:100%;
+ }
+ .inquiry-form .button{max-width:100%;min-width:0;overflow-wrap:anywhere}
+ .home-contact,.contact-layout{isolation:isolate}
+}
