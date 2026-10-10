@@ -32,6 +32,7 @@ if(funnel){
  const modal=document.querySelector('#project-finder'),openButton=document.querySelector('#funnel-open'),closeButton=document.querySelector('#funnel-close');
  if(modal&&openButton&&closeButton){
   openButton.addEventListener('click',()=>modal.showModal());
+  document.querySelectorAll('.services-quick-estimate').forEach(button=>button.addEventListener('click',()=>modal.showModal()));
   closeButton.addEventListener('click',()=>modal.close());
   modal.addEventListener('click',event=>{if(event.target===modal)modal.close()});
  }
