@@ -13,7 +13,7 @@ npm test
 
 Import this repository into Vercel. `vercel.json` sets the build command and `dist` output. Set `SITE_URL` to the **new** website’s HTTPS origin when the domain is known. The build also recognizes `VERCEL_PROJECT_PRODUCTION_URL`. Canonical URLs and the XML sitemap are generated only when an origin is available; the original business domain is deliberately not used as the canonical origin.
 
-Pages: Home, About, FAQ, Reviews, Gallery, Contact, and a custom 404. All content and SEO metadata render to HTML at build time. The site does not require JavaScript to display its page content.
+Pages: Home, About, FAQ, Reviews, Gallery, Contact, a service-area directory, six city pages, a searchable Central Texas blog with 50 articles, and a custom 404. All content and SEO metadata render to HTML at build time. The site does not require JavaScript to display its page content.
 
 ## Business content
 
@@ -29,7 +29,7 @@ The original `https://txmodernglass.com` website supplied contact details, exist
 
 ## Contact behavior
 
-The inquiry form explicitly prepares a `mailto:` message. Visitors must send it from their email app. It does not claim that a server has received a submission. Phone and email links also work independently. A direct submission backend can replace this behavior when a provider and credentials are chosen.
+The inquiry form explicitly prepares a `mailto:` message. Visitors must send it from their email app. It does not claim that a server has received a submission. Phone and email links also work independently. A direct submission backend can replace this behavior when a provider and credentials are chosen. City-page estimate links prefill the inquiry city.
 
 The contact page embeds a service-area map centered on Seguin, with a separate link to the actual Converse business address. It does not label Seguin as the office.
 
@@ -37,23 +37,23 @@ The contact page embeds a service-area map centered on Seguin, with a separate l
 
 Project photographs currently use the original GoDaddy image CDN with resized URLs. Typography uses Google Fonts with local font fallbacks. Reviews reuse the existing Elfsight widget; display on the new domain depends on that account’s domain and plan settings. There is a visible link to the existing reviews page if the widget does not load. The map uses Google Maps’ public embed. No fabricated review text or aggregate-rating schema is included.
 
-## Next phase: area pages and 50 articles
+## Service-area pages and Central Texas articles
 
-Area pages and blog articles are prepared as content-driven extensions but have not been published yet. Empty collections do not create empty blog or area routes.
+The site contains six service-area pages for New Braunfels, Cibolo, Schertz, San Marcos, La Vernia, and San Antonio, plus 50 distinct Central Texas blog articles. The homepage and core service pages retain Seguin as the primary focus. Each article contains exactly 300 body words, excluding the H1, metadata, sources, related cards, and shared call to action. Blog pages use regional calls to action rather than Seguin-focused copy.
 
 Add area records to `content/area-pages.json`:
 
 ```json
-{"slug":"new-braunfels-glass-installation","h1":"Custom Glass Installation in New Braunfels, TX","metaTitle":"Custom Glass Installation in New Braunfels | Modern Glass","metaDescription":"An original description of the actual services and useful local details.","intro":"Original local introduction.","paragraphs":["Original, useful local content."]}
+{"slug":"new-braunfels-glass-installation","h1":"Custom Glass Installation in New Braunfels, TX","metaTitle":"Custom Glass Installation in New Braunfels | Modern Glass","metaDescription":"An original description of the actual services and useful local details.","city":"New Braunfels","intro":"Original local introduction.","sections":[{"heading":"A useful local service heading","text":"Original local service content."}],"relatedCategories":["Shower planning"]}
 ```
 
 Add blog records to `content/posts.json`:
 
 ```json
-{"slug":"planning-frameless-shower-glass-seguin","h1":"Planning Frameless Shower Glass in Seguin","metaTitle":"Planning Frameless Shower Glass in Seguin | Modern Glass","metaDescription":"An original description that accurately summarizes the article.","paragraphs":["Exactly 300 body words across the article paragraphs."]}
+{"slug":"planning-frameless-shower-glass-seguin","h1":"Planning Frameless Shower Glass in Seguin","metaTitle":"Planning Frameless Shower Glass in Seguin | Modern Glass","metaDescription":"An original description that accurately summarizes the article.","category":"Shower planning","paragraphs":["Exactly 300 body words across the article paragraphs."]}
 ```
 
-Each record generates `/blog/{slug}` with its own H1, title, description, canonical URL (when configured), and sitemap entry. A blog index appears automatically when posts exist. The verification script requires exactly 300 whitespace-delimited body words per article and unique slugs. Titles, descriptions, and the CTA are excluded from the body word count. Use 50 distinct topics with natural alignment among search intent, slug, H1, and metadata; avoid interchangeable city-name articles.
+Each record generates `/blog/{slug}` with its own H1, title, description, canonical URL (when configured), and sitemap entry. The blog index includes search, category filters, and progressive loading; all articles remain available without JavaScript. Related articles, service-area links, BlogPosting schema, and breadcrumb schema connect the new content. The verification script requires exactly 300 whitespace-delimited body words per article and unique slugs. Titles, descriptions, and the CTA are excluded from the body word count. Use 50 distinct topics with natural alignment among search intent, slug, H1, and metadata; avoid interchangeable city-name articles.
 
 ## Verification limits
 
