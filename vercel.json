@@ -3,5 +3,176 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
-  "headers": [{"source": "/(.*)", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}, {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"}]}]
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/areas/seguin-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-seguin",
+      "permanent": true
+    },
+    {
+      "source": "/areas/new-braunfels-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-new-braunfels",
+      "permanent": true
+    },
+    {
+      "source": "/areas/cibolo-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-cibolo",
+      "permanent": true
+    },
+    {
+      "source": "/areas/schertz-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-schertz",
+      "permanent": true
+    },
+    {
+      "source": "/areas/san-marcos-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-san-marcos",
+      "permanent": true
+    },
+    {
+      "source": "/areas/la-vernia-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-la-vernia",
+      "permanent": true
+    },
+    {
+      "source": "/areas/austin-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-austin",
+      "permanent": true
+    },
+    {
+      "source": "/areas/bastrop-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-bastrop",
+      "permanent": true
+    },
+    {
+      "source": "/areas/boerne-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-boerne",
+      "permanent": true
+    },
+    {
+      "source": "/areas/castroville-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-castroville",
+      "permanent": true
+    },
+    {
+      "source": "/areas/cedar-park-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-cedar-park",
+      "permanent": true
+    },
+    {
+      "source": "/areas/dripping-springs-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-dripping-springs",
+      "permanent": true
+    },
+    {
+      "source": "/areas/floresville-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-floresville",
+      "permanent": true
+    },
+    {
+      "source": "/areas/fredericksburg-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-fredericksburg",
+      "permanent": true
+    },
+    {
+      "source": "/areas/kerrville-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-kerrville",
+      "permanent": true
+    },
+    {
+      "source": "/areas/marble-falls-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-marble-falls",
+      "permanent": true
+    },
+    {
+      "source": "/areas/pleasanton-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-pleasanton",
+      "permanent": true
+    },
+    {
+      "source": "/areas/round-rock-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-round-rock",
+      "permanent": true
+    },
+    {
+      "source": "/areas/spicewood-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-spicewood",
+      "permanent": true
+    },
+    {
+      "source": "/areas/wimberley-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-wimberley",
+      "permanent": true
+    },
+    {
+      "source": "/areas/marion-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-marion",
+      "permanent": true
+    },
+    {
+      "source": "/areas/mcqueeney-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-mcqueeney",
+      "permanent": true
+    },
+    {
+      "source": "/areas/geronimo-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-geronimo",
+      "permanent": true
+    },
+    {
+      "source": "/areas/kingsbury-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-kingsbury",
+      "permanent": true
+    },
+    {
+      "source": "/areas/luling-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-luling",
+      "permanent": true
+    },
+    {
+      "source": "/areas/lockhart-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-lockhart",
+      "permanent": true
+    },
+    {
+      "source": "/areas/kyle-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-kyle",
+      "permanent": true
+    },
+    {
+      "source": "/areas/buda-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-buda",
+      "permanent": true
+    },
+    {
+      "source": "/areas/bulverde-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-bulverde",
+      "permanent": true
+    },
+    {
+      "source": "/areas/spring-branch-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-spring-branch",
+      "permanent": true
+    },
+    {
+      "source": "/areas/texas-hill-country-glass-installation",
+      "destination": "/areas/frameless-shower-doors-custom-glass-in-texas-hill-country",
+      "permanent": true
+    }
+  ]
 }
