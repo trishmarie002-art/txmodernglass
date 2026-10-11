@@ -3,7 +3,7 @@
   "phone": "(210) 609-5574",
   "telephone": "+12106095574",
   "email": "tx.modernglass@gmail.com",
-  "address": "8503 Morning Grove, Converse, Texas 78109",
+  "address": "2725 San Martin Ln, Seguin, TX 78155",
   "primaryArea": "Seguin",
   "logo": "https://img1.wsimg.com/isteam/ip/62bfd8e4-fb8c-4f01-864b-f4d367498bb5/3BAC55DA-4D79-4BCE-9AE5-492E7BAD2BB1.png/:/rs=w:598,h:144,cg:true,m/qt=q:95",
   "reviewWidget": "bff28f5f-f15a-4c67-89c3-3787a811ce04",
@@ -42,16 +42,16 @@
   ],
   "hours": [
     {
-      "days": "Monday\u2013Friday",
-      "hours": "9 am\u20138 pm"
+      "days": "Monday–Friday",
+      "hours": "9 am–8 pm"
     },
     {
       "days": "Saturday",
-      "hours": "9 am\u20136 pm"
+      "hours": "9 am–6 pm"
     },
     {
       "days": "Sunday",
-      "hours": "9 am\u20135 pm"
+      "hours": "9 am–5 pm"
     }
   ],
   "sources": [
